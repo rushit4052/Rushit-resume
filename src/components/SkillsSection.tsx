@@ -52,10 +52,10 @@ const SkillsSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 royal-header">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="gradient-text">Skills & Expertise</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-elegant">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               A comprehensive overview of my technical skills and proficiency levels
             </p>
           </div>
@@ -97,7 +97,7 @@ const SkillsSection = () => {
           {/* Skill Highlights */}
           <div className="mt-16 scroll-reveal">
             <div className="glass-card p-8">
-              <h3 className="text-2xl font-serif font-semibold text-center mb-8 text-primary">What I Bring to the Table</h3>
+              <h3 className="text-2xl font-semibold text-center mb-8">What I Bring to the Table</h3>
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="text-center">
                   <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-hero flex items-center justify-center">

@@ -14,11 +14,11 @@ const AboutSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 royal-header">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="gradient-text">About Me</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-elegant">
-              Aspiring developer with a passion for creating exceptional digital experiences
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Passionate developer with a love for creating exceptional digital experiences
             </p>
           </div>
 
@@ -26,7 +26,7 @@ const AboutSection = () => {
             {/* Content */}
             <div className="space-y-6 scroll-reveal">
               <div className="glass-card p-8">
-                <h3 className="text-2xl font-serif font-semibold mb-4 text-primary">My Journey</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-primary">My Journey</h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   I'm a passionate Computer Engineering student pursuing B.Tech from VVP Engineering College, Rajkot. 
                   My journey began with a diploma in Computer Engineering from AVPTI, Rajkot, which sparked my 
@@ -67,7 +67,7 @@ const AboutSection = () => {
 
           {/* Technologies */}
           <div className="mt-16 scroll-reveal">
-            <h3 className="text-2xl font-serif font-semibold text-center mb-8 text-primary">Technologies I Love</h3>
+            <h3 className="text-2xl font-semibold text-center mb-8">Technologies I Love</h3>
             <div className="flex flex-wrap justify-center gap-4">
               {[
                 'PHP', 'Vue.js', 'JavaScript', 'HTML/CSS', 'MySQL', 
