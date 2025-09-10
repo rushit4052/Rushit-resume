@@ -2,10 +2,10 @@ import { Calendar, MapPin, Users, Award } from 'lucide-react';
 
 const AboutSection = () => {
   const stats = [
-    { icon: Calendar, label: 'Years Experience', value: '5+' },
-    { icon: Users, label: 'Projects Completed', value: '50+' },
-    { icon: Award, label: 'Happy Clients', value: '30+' },
-    { icon: MapPin, label: 'Based In', value: 'NYC' },
+    { icon: Calendar, label: 'Internships', value: '2' },
+    { icon: Users, label: 'Projects Completed', value: '2+' },
+    { icon: Award, label: 'Certifications', value: '1' },
+    { icon: MapPin, label: 'Based In', value: 'Rajkot' },
   ];
 
   return (
@@ -28,18 +28,18 @@ const AboutSection = () => {
               <div className="glass-card p-8">
                 <h3 className="text-2xl font-semibold mb-4 text-primary">My Journey</h3>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  I'm a passionate full-stack developer with over 5 years of experience crafting 
-                  digital solutions that make a difference. My journey began with a curiosity for 
-                  how things work, which evolved into a deep love for coding and problem-solving.
+                  I'm a passionate Computer Engineering student pursuing B.Tech from VVP Engineering College, Rajkot. 
+                  My journey began with a diploma in Computer Engineering from AVPTI, Rajkot, which sparked my 
+                  interest in web development and modern technologies.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  I specialize in modern web technologies and have a keen eye for user experience 
-                  design. When I'm not coding, you'll find me exploring new technologies, 
-                  contributing to open-source projects, or sharing knowledge with the dev community.
+                  I have gained practical experience through internships at Ethics Technocrates (PHP development) 
+                  and Jayshree Software (Vue.js and PHP development). I'm constantly learning and building projects 
+                  to strengthen my skills in full-stack development.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  I believe in writing clean, maintainable code and creating applications that 
-                  not only work perfectly but also provide an exceptional user experience.
+                  I believe in continuous learning and applying theoretical knowledge to real-world projects. 
+                  My goal is to create efficient, user-friendly applications that solve real problems.
                 </p>
               </div>
             </div>
@@ -70,8 +70,8 @@ const AboutSection = () => {
             <h3 className="text-2xl font-semibold text-center mb-8">Technologies I Love</h3>
             <div className="flex flex-wrap justify-center gap-4">
               {[
-                'React', 'TypeScript', 'Node.js', 'Python', 'PostgreSQL', 
-                'AWS', 'Docker', 'GraphQL', 'Next.js', 'Tailwind CSS'
+                'PHP', 'Vue.js', 'JavaScript', 'HTML/CSS', 'MySQL', 
+                'React', 'Node.js', 'Git', 'Bootstrap', 'REST APIs'
               ].map((tech, index) => (
                 <div
                   key={index}

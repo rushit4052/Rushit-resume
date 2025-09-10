@@ -4,7 +4,7 @@ import { ArrowDown, Download, Github, Linkedin, Mail } from 'lucide-react';
 const HeroSection = () => {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
-  const fullText = "Full-Stack Developer";
+  const fullText = "Computer Engineering Student";
   useEffect(() => {
     if (currentIndex < fullText.length) {
       const timeout = setTimeout(() => {
@@ -62,8 +62,8 @@ const HeroSection = () => {
             </div>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Crafting innovative digital experiences with cutting-edge technologies. 
-              Passionate about creating seamless user interfaces and robust backend solutions.
+              Computer Engineering student with hands-on experience in web development. 
+              Passionate about learning new technologies and building innovative solutions.
             </p>
           </div>
 

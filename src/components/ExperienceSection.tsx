@@ -12,53 +12,47 @@ interface Experience {
 const ExperienceSection = () => {
   const experiences: Experience[] = [
     {
-      title: 'Senior Full-Stack Developer',
-      company: 'TechCorp Solutions',
-      location: 'New York, NY',
-      period: '2022 - Present',
+      title: 'Web Development Intern',
+      company: 'Jayshree Software',
+      location: 'Rajkot, Gujarat',
+      period: '2 Months',
       description: [
-        'Led a team of 4 developers in building scalable web applications',
-        'Architected microservices infrastructure serving 100k+ daily users',
-        'Implemented CI/CD pipelines reducing deployment time by 60%',
-        'Mentored junior developers and conducted code reviews'
+        'Developed dynamic web applications using Vue.js framework',
+        'Worked on backend development with PHP for database operations',
+        'Collaborated with team members on real-world client projects',
+        'Gained hands-on experience in full-stack development workflow'
       ],
-      technologies: ['React', 'Node.js', 'AWS', 'PostgreSQL', 'Docker']
+      technologies: ['Vue.js', 'PHP', 'MySQL', 'HTML', 'CSS']
     },
     {
-      title: 'Full-Stack Developer',
-      company: 'StartupXYZ',
-      location: 'San Francisco, CA',
-      period: '2020 - 2022',
+      title: 'PHP Development Intern',
+      company: 'Ethics Technocrates',
+      location: 'Rajkot, Gujarat',
+      period: '15 Days',
       description: [
-        'Developed MVP for fintech platform processing $1M+ transactions',
-        'Built responsive web applications using React and TypeScript',
-        'Designed and implemented RESTful APIs and GraphQL endpoints',
-        'Collaborated with design team to create intuitive user experiences'
+        'Introduction to server-side development with PHP',
+        'Learned database integration and CRUD operations',
+        'Built basic web applications with PHP and MySQL',
+        'Understanding of web development fundamentals'
       ],
-      technologies: ['React', 'TypeScript', 'Python', 'MongoDB', 'GraphQL']
-    },
-    {
-      title: 'Frontend Developer',
-      company: 'Digital Agency Pro',
-      location: 'Remote',
-      period: '2019 - 2020',
-      description: [
-        'Created pixel-perfect responsive websites for 20+ clients',
-        'Optimized web performance achieving 95+ Lighthouse scores',
-        'Integrated third-party APIs and payment processing systems',
-        'Maintained and updated existing client websites'
-      ],
-      technologies: ['JavaScript', 'Vue.js', 'SASS', 'WordPress', 'PHP']
+      technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript']
     }
   ];
 
   const education = [
     {
-      degree: 'Bachelor of Computer Science',
-      school: 'University of Technology',
-      location: 'New York, NY',
-      period: '2015 - 2019',
-      achievements: ['Magna Cum Laude', 'Dean\'s List (6 semesters)', 'CS Honor Society']
+      degree: 'B.Tech Computer Engineering',
+      school: 'VVP Engineering College',
+      location: 'Rajkot, Gujarat',
+      period: 'Currently Pursuing',
+      achievements: ['Active in coding clubs', 'Participated in hackathons', 'Strong academic performance']
+    },
+    {
+      degree: 'Diploma in Computer Engineering',
+      school: 'AVPTI',
+      location: 'Rajkot, Gujarat',
+      period: 'Completed',
+      achievements: ['Foundation in programming', 'Web development basics', 'Database management']
     }
   ];
 
@@ -145,30 +139,32 @@ const ExperienceSection = () => {
               {/* Education */}
               <div className="scroll-reveal">
                 <h3 className="text-2xl font-semibold mb-6">Education</h3>
-                {education.map((edu, index) => (
-                  <div key={index} className="glass-card p-6">
-                    <h4 className="text-lg font-semibold text-primary mb-2">{edu.degree}</h4>
-                    <p className="font-medium mb-2">{edu.school}</p>
-                    <div className="text-sm text-muted-foreground mb-4">
-                      <div className="flex items-center mb-1">
-                        <Calendar className="w-4 h-4 mr-1" />
-                        {edu.period}
-                      </div>
-                      <div className="flex items-center">
-                        <MapPin className="w-4 h-4 mr-1" />
-                        {edu.location}
-                      </div>
-                    </div>
-                    <div className="space-y-1">
-                      {edu.achievements.map((achievement, i) => (
-                        <div key={i} className="text-sm text-muted-foreground flex items-center">
-                          <span className="text-primary mr-2">✓</span>
-                          {achievement}
+                <div className="space-y-6">
+                  {education.map((edu, index) => (
+                    <div key={index} className="glass-card p-6">
+                      <h4 className="text-lg font-semibold text-primary mb-2">{edu.degree}</h4>
+                      <p className="font-medium mb-2">{edu.school}</p>
+                      <div className="text-sm text-muted-foreground mb-4">
+                        <div className="flex items-center mb-1">
+                          <Calendar className="w-4 h-4 mr-1" />
+                          {edu.period}
                         </div>
-                      ))}
+                        <div className="flex items-center">
+                          <MapPin className="w-4 h-4 mr-1" />
+                          {edu.location}
+                        </div>
+                      </div>
+                      <div className="space-y-1">
+                        {edu.achievements.map((achievement, i) => (
+                          <div key={i} className="text-sm text-muted-foreground flex items-center">
+                            <span className="text-primary mr-2">✓</span>
+                            {achievement}
+                          </div>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
 
               {/* Certifications */}
@@ -176,10 +172,7 @@ const ExperienceSection = () => {
                 <h3 className="text-2xl font-semibold mb-6">Certifications</h3>
                 <div className="space-y-4">
                   {[
-                    'AWS Certified Solutions Architect',
-                    'MongoDB Certified Developer',
-                    'Google Cloud Professional',
-                    'React Advanced Certification'
+                    'Tata Job Simulation Certificate by Forge'
                   ].map((cert, index) => (
                     <div key={index} className="glass-card p-4 flex items-center justify-between">
                       <span className="font-medium">{cert}</span>

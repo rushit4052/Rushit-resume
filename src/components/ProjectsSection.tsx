@@ -15,63 +15,23 @@ interface Project {
 const ProjectsSection = () => {
   const projects: Project[] = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Modern e-commerce solution with advanced features',
-      longDescription: 'Full-featured e-commerce platform with user authentication, payment processing, inventory management, and admin dashboard. Built with React, Node.js, and PostgreSQL.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'Stripe', 'AWS'],
+      title: 'E-Commerce Website',
+      description: 'Full-featured online shopping platform',
+      longDescription: 'Complete e-commerce solution with product catalog, shopping cart, user authentication, and order management. Built during my learning journey to understand full-stack development.',
+      technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
       image: '🛒',
       liveUrl: 'https://demo.example.com',
-      githubUrl: 'https://github.com/example',
+      githubUrl: 'https://github.com/rushitharsoda',
       featured: true
     },
     {
-      title: 'AI-Powered Analytics Dashboard',
-      description: 'Real-time analytics with machine learning insights',
-      longDescription: 'Comprehensive analytics dashboard featuring real-time data visualization, predictive analytics, and AI-driven insights for business decision making.',
-      technologies: ['React', 'Python', 'TensorFlow', 'D3.js', 'MongoDB'],
-      image: '📊',
-      liveUrl: 'https://analytics.example.com',
-      githubUrl: 'https://github.com/example',
-      featured: true
-    },
-    {
-      title: 'Task Management App',
-      description: 'Collaborative project management solution',
-      longDescription: 'Team collaboration platform with task tracking, file sharing, real-time chat, and project timeline management. Perfect for remote teams.',
-      technologies: ['React', 'Firebase', 'Socket.io', 'Material-UI'],
-      image: '📋',
-      liveUrl: 'https://tasks.example.com',
-      githubUrl: 'https://github.com/example',
-      featured: false
-    },
-    {
-      title: 'Social Media App',
-      description: 'Next-generation social networking platform',
-      longDescription: 'Modern social media platform with real-time messaging, story features, advanced privacy controls, and content recommendation algorithms.',
-      technologies: ['Next.js', 'GraphQL', 'PostgreSQL', 'Redis'],
-      image: '📱',
-      liveUrl: 'https://social.example.com',
-      githubUrl: 'https://github.com/example',
-      featured: false
-    },
-    {
-      title: 'Cryptocurrency Tracker',
-      description: 'Real-time crypto portfolio management',
-      longDescription: 'Comprehensive cryptocurrency tracking application with portfolio management, price alerts, market analysis, and trading recommendations.',
-      technologies: ['Vue.js', 'Express', 'CoinGecko API', 'Chart.js'],
-      image: '₿',
-      liveUrl: 'https://crypto.example.com',
-      githubUrl: 'https://github.com/example',
-      featured: false
-    },
-    {
-      title: 'Learning Management System',
-      description: 'Online education platform with video streaming',
-      longDescription: 'Complete LMS with course creation, video streaming, progress tracking, quiz system, and instructor dashboard for online education.',
-      technologies: ['React', 'Node.js', 'AWS S3', 'Stripe', 'WebRTC'],
-      image: '🎓',
-      liveUrl: 'https://learn.example.com',
-      githubUrl: 'https://github.com/example',
+      title: 'Weather Application',
+      description: 'Real-time weather tracking app',
+      longDescription: 'Interactive weather application that provides current weather conditions, forecasts, and location-based weather data using weather APIs. Features responsive design and intuitive user interface.',
+      technologies: ['JavaScript', 'Weather API', 'HTML', 'CSS', 'Bootstrap'],
+      image: '🌤️',
+      liveUrl: 'https://weather.example.com',
+      githubUrl: 'https://github.com/rushitharsoda',
       featured: true
     }
   ];

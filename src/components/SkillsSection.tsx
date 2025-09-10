@@ -11,19 +11,19 @@ const SkillsSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   const skills: Skill[] = [
-    { name: 'React/Next.js', level: 95, category: 'Frontend' },
-    { name: 'TypeScript', level: 90, category: 'Frontend' },
-    { name: 'Tailwind CSS', level: 88, category: 'Frontend' },
-    { name: 'Node.js', level: 85, category: 'Backend' },
-    { name: 'Python', level: 82, category: 'Backend' },
-    { name: 'PostgreSQL', level: 80, category: 'Backend' },
-    { name: 'AWS/Cloud', level: 75, category: 'DevOps' },
-    { name: 'Docker', level: 78, category: 'DevOps' },
-    { name: 'GraphQL', level: 85, category: 'API' },
-    { name: 'REST APIs', level: 90, category: 'API' },
+    { name: 'HTML/CSS', level: 85, category: 'Frontend' },
+    { name: 'JavaScript', level: 80, category: 'Frontend' },
+    { name: 'Vue.js', level: 75, category: 'Frontend' },
+    { name: 'PHP', level: 85, category: 'Backend' },
+    { name: 'MySQL', level: 80, category: 'Backend' },
+    { name: 'Node.js', level: 70, category: 'Backend' },
+    { name: 'Git/GitHub', level: 75, category: 'Tools' },
+    { name: 'Bootstrap', level: 78, category: 'Tools' },
+    { name: 'REST APIs', level: 70, category: 'API' },
+    { name: 'React', level: 65, category: 'API' },
   ];
 
-  const categories = ['Frontend', 'Backend', 'DevOps', 'API'];
+  const categories = ['Frontend', 'Backend', 'Tools', 'API'];
 
   useEffect(() => {
     const observer = new IntersectionObserver(
