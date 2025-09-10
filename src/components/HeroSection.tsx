@@ -41,9 +41,7 @@ const HeroSection = () => {
             <div className="relative w-32 h-32 mx-auto mb-6">
               <div className="absolute inset-0 rounded-full bg-gradient-hero opacity-75 blur-lg" />
               <div className="relative w-full h-full rounded-full border-2 border-primary/30 overflow-hidden bg-gradient-card">
-                <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center text-6xl font-bold text-primary">
-                  JD
-                </div>
+                <div className="w-full h-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center text-6xl font-bold text-primary">RH</div>
               </div>
             </div>
           </div>
