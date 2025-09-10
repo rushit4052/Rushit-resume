@@ -50,18 +50,18 @@ const HeroSection = () => {
           <div className="space-y-6 animate-fade-in-up" style={{
           animationDelay: '0.2s'
         }}>
-            <h1 className="text-5xl md:text-7xl font-bold">
+            <h1 className="text-5xl md:text-7xl font-serif font-bold tracking-tight">
               <span className="gradient-text">Rushit Harsoda</span>
             </h1>
             
-            <div className="text-2xl md:text-3xl text-muted-foreground min-h-[40px]">
+            <div className="text-2xl md:text-3xl text-muted-foreground min-h-[40px] font-elegant">
               <span className="inline-block">
                 {displayText}
-                <span className="inline-block w-1 h-8 bg-primary ml-1 animate-pulse" />
+                <span className="inline-block w-1 h-8 bg-primary ml-1 animate-pulse royal-glow" />
               </span>
             </div>
 
-            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed font-elegant">
               Computer Engineering student with hands-on experience in web development. 
               Passionate about learning new technologies and building innovative solutions.
             </p>

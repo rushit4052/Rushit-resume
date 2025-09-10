@@ -62,10 +62,10 @@ const ExperienceSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 royal-header">
               <span className="gradient-text">Experience & Education</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-elegant">
               My professional journey and educational background
             </p>
           </div>
@@ -73,7 +73,7 @@ const ExperienceSection = () => {
           <div className="grid lg:grid-cols-3 gap-12">
             {/* Experience Timeline */}
             <div className="lg:col-span-2">
-              <h3 className="text-2xl font-semibold mb-8 scroll-reveal">Professional Experience</h3>
+              <h3 className="text-2xl font-serif font-semibold mb-8 scroll-reveal text-primary">Professional Experience</h3>
               <div className="relative">
                 {/* Timeline Line */}
                 <div className="absolute left-4 top-0 bottom-0 w-0.5 bg-gradient-accent" />
@@ -138,7 +138,7 @@ const ExperienceSection = () => {
             <div className="space-y-8">
               {/* Education */}
               <div className="scroll-reveal">
-                <h3 className="text-2xl font-semibold mb-6">Education</h3>
+                <h3 className="text-2xl font-serif font-semibold mb-6 text-primary">Education</h3>
                 <div className="space-y-6">
                   {education.map((edu, index) => (
                     <div key={index} className="glass-card p-6">
@@ -169,7 +169,7 @@ const ExperienceSection = () => {
 
               {/* Certifications */}
               <div className="scroll-reveal">
-                <h3 className="text-2xl font-semibold mb-6">Certifications</h3>
+                <h3 className="text-2xl font-serif font-semibold mb-6 text-primary">Certifications</h3>
                 <div className="space-y-4">
                   {[
                     'Tata Job Simulation Certificate by Forge'

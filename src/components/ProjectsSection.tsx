@@ -45,10 +45,10 @@ const ProjectsSection = () => {
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16 scroll-reveal">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 royal-header">
               <span className="gradient-text">Featured Projects</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-elegant">
               Showcasing my best work and innovative solutions
             </p>
           </div>
@@ -122,7 +122,7 @@ const ProjectsSection = () => {
 
           {/* Other Projects */}
           <div className="scroll-reveal">
-            <h3 className="text-2xl font-semibold text-center mb-8">Other Notable Projects</h3>
+            <h3 className="text-2xl font-serif font-semibold text-center mb-8 text-primary">Other Notable Projects</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {otherProjects.map((project, index) => (
                 <div
@@ -176,7 +176,7 @@ const ProjectsSection = () => {
           {/* Call to Action */}
           <div className="text-center mt-16 scroll-reveal">
             <div className="glass-card p-8 max-w-2xl mx-auto">
-              <h3 className="text-2xl font-semibold mb-4">Interested in Working Together?</h3>
+              <h3 className="text-2xl font-serif font-semibold mb-4 text-primary">Interested in Working Together?</h3>
               <p className="text-muted-foreground mb-6">
                 I'm always excited to collaborate on innovative projects and bring ideas to life.
               </p>

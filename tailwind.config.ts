@@ -68,13 +68,16 @@ export default {
         },
       },
       backgroundImage: {
-        "gradient-cosmic": "var(--gradient-cosmic)",
+        "gradient-royal": "var(--gradient-royal)",
         "gradient-hero": "var(--gradient-hero)",
         "gradient-card": "var(--gradient-card)",
         "gradient-accent": "var(--gradient-accent)",
+        "gradient-elegant": "var(--gradient-elegant)",
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],
+        serif: ["Playfair Display", "serif"],
+        elegant: ["Crimson Text", "serif"],
         mono: ["JetBrains Mono", "monospace"],
       },
       borderRadius: {
